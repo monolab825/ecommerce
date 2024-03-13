@@ -1,0 +1,11 @@
+.items {
+
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 15px;
+    margin-top: 15px;
+    gap: 20px;
+
+}

@@ -1,0 +1,33 @@
+.kard {
+    width: 18rem;
+    height: 25rem;
+    background: rgb(202, 97, 97);
+
+}
+
+.card img {
+    height: 50%;
+    width: 90%;
+    margin: 5px;
+    margin-left: 15px;
+    border-radius: 10px;
+
+}
+
+.card-body {
+    height: 50%;
+}
+
+.card-title {
+    height: 20%;
+    overflow: hidden;
+}
+
+.card-text {
+    height: 10%;
+}
+
+.btn {
+
+    margin-bottom: 5px;
+}
