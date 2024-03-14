@@ -31,3 +31,8 @@
 
     margin-bottom: 5px;
 }
+
+#btn2 {
+    background-color: red;
+    border: red;
+}

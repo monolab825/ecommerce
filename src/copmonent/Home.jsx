@@ -21,7 +21,7 @@ const Home = () => {
         <>
             <Header />
             <div className='items'>
-                {data.map((item) => <Kard key={item.id} img={item.image} price={item.price} title={item.title} />)}
+                {data.map((item) => <Kard key={item.id} data={item} />)}
             </div>
             {/* <Cart /> */}
 

@@ -16,12 +16,9 @@ const cartSlice = createSlice({
       }
       
     },
-    remove:(state, action)=> {
-      const todo = state.find((todo) => todo.id === action.payload)
-      todo.completed = !todo.completed
-    },
+   
   },
 })
 
-export const { todoAdded, todoToggled } = cartSlice.actions
-export default cartSlice.reducer
+export const { add } = cartSlice.actions;
+export default cartSlice;
